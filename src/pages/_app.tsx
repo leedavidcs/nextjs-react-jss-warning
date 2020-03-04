@@ -1,8 +1,6 @@
 import App from "next/app";
 import { withRouter } from "next/router";
 import React from "react";
-import { ThemeProvider } from "react-jss";
-import { Box } from "../components";
 
 export default withRouter(
 	class extends App {
